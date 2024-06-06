@@ -19,7 +19,7 @@ import { ref } from 'vue';
 import TabelaUsuario from '@/components/TabelaUsuario.vue';
 import axios from 'axios';
 import { onMounted } from 'vue';
-import { usuarioStore } from '../stores/usuarioStore'
+import { usuarioStore } from '../stores/usuarioStore';
 
 const nome = ref("Teste");
 const senha = ref("123456");

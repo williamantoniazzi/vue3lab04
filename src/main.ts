@@ -11,7 +11,9 @@ import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
 import { usuarioStore } from './stores/usuarioStore'
 
-axios.defaults.baseURL = 'https://8080-mineda-springboot3lab4-11o9c17xhco.ws-us114.gitpod.io/'
+//axios.defaults.baseURL = 'https://8080-mineda-springboot3lab4-11o9c17xhco.ws-us114.gitpod.io/'
+axios.defaults.baseURL = 'https://8080-williamanto-springboot3-xvvalads6a2.ws-us114.gitpod.io'
+
 
 axios.interceptors.request.use(config => {
     const store = usuarioStore();
