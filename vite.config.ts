@@ -15,6 +15,7 @@ export default defineConfig({
       provider: 'v8', // usa @vitest/coverage-v8
       reporter: ['text', 'lcov'], // lcov é necessário pro SonarCloud
     },
+  },  // fechou o test aqui
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
